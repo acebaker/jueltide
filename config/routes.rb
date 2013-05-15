@@ -1,4 +1,18 @@
 Jueltide::Application.routes.draw do
+  get "static_pages/home"
+
+  get "static_pages/services"
+
+  get "static_pages/tideGates101"
+
+  get "static_pages/caseStudies"
+
+  get "static_pages/tideBlog"
+
+  get "static_pages/aboutUs"
+
+  get "static_pages/contactUs"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
